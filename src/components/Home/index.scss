@@ -14,9 +14,9 @@
       font-family: 'Coolvetica';
       font-weight: 400;
       &::before{
-          content: '<h1>';
+          content: 'Greeting';
           font-family: 'La Belle Aurore';
-          color: #ffd700;
+          color: white;
           font-size: 18px;
           position: absolute;
           margin-top: -40px;
@@ -24,9 +24,9 @@
           opacity: 0.6;
       }
       &::after{
-          content: '<h1>';
+          content: 'Nice to meet you';
           font-family: 'La Belle Aurore';
-          color: #ffd700;
+          color: white;
           font-size: 18px;
           position: absolute;
           margin-top: 18px;
@@ -45,7 +45,7 @@
     }
   }
   h2{
-      color: #8d8d8d;
+      color: white;
       margin-top: 20px;
       font-weight: 400;
       font-size: 11px;
@@ -54,21 +54,21 @@
       animation: fadeIn 1s 1.8s backwards;
   }
   .flat-button{
-      color: #ffd700;
+      color: white;
       font-size: 13px;
       font-weight:400px;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding:  10px 18px;
-      border: 1px solid #ffd700;
+      border: 1px solid white;
       margin-top: 25px;
       float: left;
       animation: fadeIn 1s 1.8s backwards;
       white-space: nowrap;
       &:hover{
-          background: #ffd700;
-          color: #333;
+          background: black;
+          color: white;
       }
   }
 }

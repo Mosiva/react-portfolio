@@ -1,8 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import React from 'react'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoSubtitle from '../../assets/images/logo_67.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -11,7 +10,6 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={LogoS} alt="logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="logo" />
       </Link>
       <nav>
@@ -42,7 +40,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/sultan-baimukhanov-327329218/"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="$4d4d4e"/>
+            <FontAwesomeIcon icon={faLinkedin} color="#3c4145"/>
           </a>
         </li>
         <li>
@@ -51,7 +49,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://github.com/Mosiva"
           >
-            <FontAwesomeIcon icon={faGithub} color="$4d4d4e"/>
+            <FontAwesomeIcon icon={faGithub} color="#3c4145"/>
           </a>
         </li>
         <li>
@@ -60,7 +58,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://hh.kz/applicant/resumes/view?resume=3e7ab4ecff03d7a1340039ed1f354b6b657739"
           >
-            <FontAwesomeIcon icon={faDiscord} color="$4d4d4e"/>
+            <FontAwesomeIcon icon={faDiscord} color="#3c4145"/>
           </a>
         </li>
       </ul>

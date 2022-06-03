@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
@@ -43,7 +42,6 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m </span> <>
             </>
-            {/* <img src={LogoTitle} alt="developer" /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
